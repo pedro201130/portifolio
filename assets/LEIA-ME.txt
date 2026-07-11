@@ -1,0 +1,7 @@
+Coloque aqui seus prints e posts:
+- projeto-1.jpg (post do Instagram)
+- projeto-2.jpg (print de cliente)
+- projeto-3.jpg (SaaS)
+- projeto-4.jpg (landing/UI)
+
+Depois, no index.html, descomente a <img> do card e apague o data-placeholder.

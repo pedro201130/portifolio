@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro Henrique Prates — Designer & Desenvolvedor</title>
+  <meta name="description" content="Portfólio de Pedro Henrique Prates — Designer e Desenvolvedor. Interfaces, sites e produtos SaaS com foco em design e código." />
+
+  <!-- Open Graph (compartilhamento em redes sociais) -->
+  <meta property="og:title" content="Pedro Henrique Prates — Designer & Desenvolvedor" />
+  <meta property="og:description" content="Designer e Dev. Interfaces, sites e produtos SaaS." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a href="#top" class="logo">PH<span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="#trabalhos">Projetos</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato" class="nav-cta">Contato</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <p class="eyebrow reveal">Designer &amp; Desenvolvedor · 15 anos</p>
+      <h1 class="reveal">
+        Pedro Henrique.<br />
+        Eu desenho <em>e</em> construo.
+      </h1>
+      <p class="hero-sub reveal">
+        Do layout ao código. Crio interfaces, sites e produtos
+        <strong>SaaS</strong> unindo design e desenvolvimento em um só lugar.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#trabalhos" class="btn btn-primary">Ver trabalhos</a>
+        <a href="#contato" class="btn btn-ghost">Trabalhar comigo</a>
+      </div>
+
+      <!-- Prova social -->
+      <div class="stats reveal">
+        <div class="stat">
+          <span class="stat-num">+1 milhão</span>
+          <span class="stat-label">de views somando meus posts</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="449" data-suffix=" mil">0</span>
+          <span class="stat-label">views no post mais viral</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="27" data-suffix=" mil">0</span>
+          <span class="stat-label">curtidas nesse post</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projetos & SaaS ===== -->
+    <section id="trabalhos" class="section">
+      <div class="section-head reveal">
+        <h2>Projetos &amp; SaaS</h2>
+        <p>Produtos que criei do zero — da ideia à interface ao código. Clique para acessar ao vivo.</p>
+      </div>
+
+      <div class="projects">
+        <!-- PROJETO 1 — Quiz de Carreira em Dados -->
+        <article class="project reveal">
+          <a class="project-media" href="https://quiz-cargos-em-dados.vercel.app/" target="_blank" rel="noopener" aria-label="Abrir o Quiz de Carreira em Dados" data-placeholder="Salve o print como assets/quiz.png">
+            <img src="assets/quiz.png" alt="Tela inicial do Quiz de Carreira em Dados" onerror="imgFallback(this)" />
+          </a>
+          <div class="project-body">
+            <div class="work-tags"><span>SaaS</span><span>JavaScript</span><span>Quiz</span></div>
+            <h3>Quiz de Carreira em Dados</h3>
+            <p>
+              Quiz gratuito de 2 minutos que descobre qual cargo em dados combina
+              com o perfil da pessoa — e o potencial salarial. Interface, lógica e
+              resultado, tudo construído por mim.
+            </p>
+            <a class="btn btn-primary" href="https://quiz-cargos-em-dados.vercel.app/" target="_blank" rel="noopener">Ver ao vivo ↗</a>
+          </div>
+        </article>
+
+        <!-- PROJETO 2 — Phivo (troca de imagem no hover) -->
+        <article class="project project--reverse reveal">
+          <a class="project-media project-media--swap" href="https://phivo.com.br" target="_blank" rel="noopener" aria-label="Abrir a plataforma Phivo" data-placeholder="Salve os prints como assets/phivo-home.png e assets/phivo-posts.png">
+            <img class="media-base" src="assets/phivo-home.png" alt="Tela inicial da plataforma Phivo" onerror="imgFallback(this)" />
+            <img class="media-hover" src="assets/phivo-posts.png" alt="Painel de projetos e posts da Phivo" onerror="imgFallback(this)" />
+            <span class="media-hint">Passe o mouse ↗</span>
+          </a>
+          <div class="project-body">
+            <div class="work-tags"><span>SaaS</span><span>Plataforma</span><span>Editor</span></div>
+            <h3>Phivo — carrosséis virais</h3>
+            <p>
+              Plataforma completa para criar carrosséis virais para o Instagram:
+              editor próprio, gerenciamento de projetos, backup e exportação.
+              Foi com ela que produzi os posts que passaram de 400 mil views.
+            </p>
+            <a class="btn btn-primary" href="https://phivo.com.br" target="_blank" rel="noopener">Ver ao vivo ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Resultados / Prova social ===== -->
+    <section id="resultados" class="section section-results">
+      <div class="section-head reveal">
+        <h2>Resultados no Instagram</h2>
+        <p>Conteúdos que criei e que alcançaram gente de verdade. Números reais, tirados direto dos insights dos posts.</p>
+      </div>
+
+      <div class="results-grid">
+        <!-- Destaque -->
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-1.jpg">
+            <img src="assets/post-1.jpg" alt="Analytics do post sobre o ecossistema de inovação do Nordeste" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="449" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">Post sobre o ecossistema de inovação do Nordeste. O mais viral até hoje.</p>
+          <div class="result-meta">
+            <span>❤ 27 mil</span><span>↻ 5,5 mil</span><span>🔖 2,5 mil</span>
+          </div>
+        </article>
+
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-2.jpg">
+            <img src="assets/post-2.jpg" alt="Post sobre educação e Paulo Freire" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="160" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">Post sobre educação e o legado de Paulo Freire.</p>
+          <div class="result-meta"><span>❤ 8,8 mil</span><span>💬 1,2 mil</span></div>
+        </article>
+
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-3.jpg">
+            <img src="assets/post-3.jpg" alt="Post sobre o brasileiro que publicou pela O'Reilly" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="158" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">História do brasileiro que publicou pela O'Reilly.</p>
+          <div class="result-meta"><span>❤ 12 mil</span><span>↻ 2,3 mil</span></div>
+        </article>
+
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-4.jpg">
+            <img src="assets/post-4.jpg" alt="Post sobre o Brasil 1x7 pelos dados" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="79" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">Brasil 1×7 contado pelo lado dos dados. Alta partilha.</p>
+          <div class="result-meta"><span>❤ 1,7 mil</span><span>↻ 1,1 mil</span></div>
+        </article>
+
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-5.jpg">
+            <img src="assets/post-5.jpg" alt="Post sobre a engenheira negada nos EUA" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="58" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">A engenheira negada nos EUA que criou o próprio império.</p>
+          <div class="result-meta"><span>❤ 3,4 mil</span><span>🔖 665</span></div>
+        </article>
+
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-6.jpg">
+            <img src="assets/post-6.jpg" alt="Post sobre o matemático que provou o impossível aos 19 anos" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="58" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">O matemático que provou o impossível aos 19 anos.</p>
+          <div class="result-meta"><span>❤ 3,7 mil</span><span>🔖 822</span></div>
+        </article>
+
+        <article class="result-card reveal">
+          <div class="result-thumb" data-placeholder="assets/post-7.jpg">
+            <img src="assets/post-7.jpg" alt="Post sobre o analista de contraterrorismo e o diagrama" onerror="imgFallback(this)" />
+          </div>
+          <span class="result-views" data-count="35" data-suffix=" mil">0</span>
+          <p class="result-label">visualizações</p>
+          <p class="result-desc">O analista de contraterrorismo que criou o diagrama usado no mundo todo.</p>
+          <div class="result-meta"><span>❤ 822</span><span>🔖 540</span></div>
+        </article>
+      </div>
+
+      <p class="results-total reveal">
+        Somando esses posts, são mais de <strong>1 milhão de visualizações</strong> —
+        conteúdo pensado, escrito e desenhado por mim.
+      </p>
+    </section>
+
+    <!-- ===== Sobre ===== -->
+    <section id="sobre" class="section section-about">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2>Sobre mim</h2>
+          <p>
+            Sou <strong>Pedro Henrique Prates</strong>, tenho 15 anos e já atuo
+            como designer e desenvolvedor. Gosto de resolver problemas nas duas
+            pontas: desenhar uma interface bonita e depois transformá-la em algo
+            que realmente funciona.
+          </p>
+          <p>
+            Trabalho com <strong>HTML, CSS e JavaScript</strong>, manipulo dados
+            com <strong>SQL</strong> e tenho paixão por construir produtos
+            <strong>SaaS</strong> do zero — da ideia à interface ao banco de dados.
+          </p>
+          <p>
+            No conteúdo, já criei posts que passaram de <strong>449 mil views</strong>
+            cada, somando quase <strong>1 milhão de visualizações</strong>. Números
+            reais, com curtidas, compartilhamentos e novos seguidores como prova.
+          </p>
+        </div>
+        <aside class="about-side reveal">
+          <div class="about-card">
+            <h4>Disponível para</h4>
+            <ul>
+              <li>Vagas (dev / designer)</li>
+              <li>Freelas &amp; projetos</li>
+              <li>Parcerias em SaaS</li>
+            </ul>
+            <a href="#contato" class="btn btn-primary btn-block">Fale comigo</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <h2>O que eu faço</h2>
+        <p>Design e desenvolvimento reunidos num só perfil.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill reveal">
+          <h3>Design de interfaces</h3>
+          <p>UI, layout, identidade visual e criação de conteúdo social.</p>
+        </div>
+        <div class="skill reveal">
+          <h3>Front-end</h3>
+          <p>HTML, CSS e JavaScript. Sites responsivos e bem estruturados.</p>
+        </div>
+        <div class="skill reveal">
+          <h3>Dados &amp; back-end</h3>
+          <p>SQL e modelagem de dados para dar vida a aplicações reais.</p>
+        </div>
+        <div class="skill reveal">
+          <h3>Produtos SaaS</h3>
+          <p>Da ideia ao produto: penso, desenho e construo do começo ao fim.</p>
+        </div>
+      </div>
+
+      <div class="tech-list reveal">
+        <span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span>
+        <span>UI Design</span><span>Responsivo</span><span>SaaS</span>
+      </div>
+    </section>
+
+    <!-- ===== Contato ===== -->
+    <section id="contato" class="section section-contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">Vamos conversar</p>
+        <h2>Tem um projeto ou uma vaga?</h2>
+        <p class="contact-sub">
+          Me chame no Instagram ou dê uma olhada nos meus códigos no GitHub.
+        </p>
+        <a href="https://instagram.com/pedrohenriqueprates_" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          Chamar no Instagram ↗
+        </a>
+        <div class="contact-links">
+          <a href="https://instagram.com/pedrohenriqueprates_" target="_blank" rel="noopener">Instagram ↗</a>
+          <a href="https://github.com/pedro201130" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Pedro Henrique Prates</span>
+    <span>Feito com HTML, CSS &amp; JS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
