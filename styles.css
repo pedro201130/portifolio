@@ -515,6 +515,9 @@ h1, h2, h3, h4 {
   color: var(--ink-soft);
   font-size: 14px;
 }
+.footer-links { display: flex; gap: 24px; }
+.footer-links a { transition: color .2s ease; }
+.footer-links a:hover { color: var(--accent); }
 
 /* ---------- Animação de reveal ---------- */
 .reveal {
