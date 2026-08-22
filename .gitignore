@@ -11,3 +11,6 @@ WhatsApp Image *.jpeg
 # Editores
 .vscode/
 .idea/
+
+.vercel
+.env*
